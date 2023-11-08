@@ -1,0 +1,29 @@
+{
+    "name": "سورس نشر",
+    "description": "User bot for telegram !",
+    "stack": "container",
+    "repository": "https://github.com/hwhsja/jwje",
+    "keywords": [
+        "python",
+        "chatbot",
+        "telegrambot"
+    ],
+    "website": "https://github.com/hwhsja/jwje",
+    "env": {
+        "APP_ID": {
+            "description": "ايبي ايدي",
+            "value": "",
+            "required": true
+        },
+        "APP_HASH": {
+            "description": "هاش",
+            "value": "",
+            "required": true
+        },
+        "TERMUX": {
+            "description": "كود تيرمكس",
+            "value": "",
+            "required": true
+        }
+    }
+}
